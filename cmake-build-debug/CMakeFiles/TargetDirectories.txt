@@ -1,0 +1,3 @@
+/home/qianyangyang/ide/clion/woaikv/cmake-build-debug/CMakeFiles/interface.dir
+/home/qianyangyang/ide/clion/woaikv/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/qianyangyang/ide/clion/woaikv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
