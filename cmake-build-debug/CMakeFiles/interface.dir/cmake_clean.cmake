@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/interface.dir/src/common.cpp.obj"
-  "CMakeFiles/interface.dir/src/common.cpp.obj.d"
-  "CMakeFiles/interface.dir/src/config/config.cpp.obj"
-  "CMakeFiles/interface.dir/src/config/config.cpp.obj.d"
-  "CMakeFiles/interface.dir/src/interface.cpp.obj"
-  "CMakeFiles/interface.dir/src/interface.cpp.obj.d"
-  "CMakeFiles/interface.dir/src/util/hash.cpp.obj"
-  "CMakeFiles/interface.dir/src/util/hash.cpp.obj.d"
-  "libinterface.dll"
-  "libinterface.dll.a"
-  "libinterface.dll.manifest"
+  "CMakeFiles/interface.dir/src/common.cpp.o"
+  "CMakeFiles/interface.dir/src/common.cpp.o.d"
+  "CMakeFiles/interface.dir/src/config/config.cpp.o"
+  "CMakeFiles/interface.dir/src/config/config.cpp.o.d"
+  "CMakeFiles/interface.dir/src/interface.cpp.o"
+  "CMakeFiles/interface.dir/src/interface.cpp.o.d"
+  "CMakeFiles/interface.dir/src/util/enter_hash.cpp.o"
+  "CMakeFiles/interface.dir/src/util/enter_hash.cpp.o.d"
   "libinterface.pdb"
+  "libinterface.so"
 )
 
 # Per-language clean rules from dependency scanning.

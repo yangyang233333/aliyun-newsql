@@ -3,7 +3,9 @@
 //
 #include "config.h"
 
-namespace woaikv{
+namespace woaikv {
+    const int NODE_NUM = 4;//服务器数量，此处为4
+
 
 
 

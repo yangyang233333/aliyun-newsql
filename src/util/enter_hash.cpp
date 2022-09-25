@@ -2,11 +2,12 @@
 // Created by qianyangyang on 9/25/22.
 //
 
-#ifndef CLION_HASH_H
-#define CLION_HASH_H
+#include "entry_hash.h"
 
 namespace woaikv {
+    std::hash<User> user_hash;
+
+
+
 
 }
-
-#endif //CLION_HASH_H

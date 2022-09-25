@@ -1,6 +1,7 @@
 //
 // Created by qianyangyang on 9/24/22.
 //
+#include <stdint.h>
 
 #ifndef CLION_COMMON_H
 #define CLION_COMMON_H

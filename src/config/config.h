@@ -6,7 +6,10 @@
 #define CLION_CONFIG_H
 
 namespace woaikv{
-    int node_num;//服务器数量，此处为4
+    extern const int NODE_NUM;//服务器数量，此处为4
+
+
+
 
 }
 
