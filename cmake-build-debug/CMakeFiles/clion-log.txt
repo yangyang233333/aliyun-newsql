@@ -1,16 +1,4 @@
 /home/qianyangyang/.cache/JetBrains/RemoteDev/dist/aba04351ed0da_CLion-2022.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/qianyangyang/ide/clion/woaikv -B /home/qianyangyang/ide/clion/woaikv/cmake-build-debug
--- The C compiler identification is GNU 4.8.5
--- The CXX compiler identification is GNU 4.8.5
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- Configuring done
 CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
 Please set them or make sure they are set and tested correctly in the CMake files:

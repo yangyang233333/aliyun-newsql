@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface.dir/src/common.cpp.o"
   "CMakeFiles/interface.dir/src/common.cpp.o.d"
+  "CMakeFiles/interface.dir/src/config/config.cpp.o"
+  "CMakeFiles/interface.dir/src/config/config.cpp.o.d"
   "CMakeFiles/interface.dir/src/interface.cpp.o"
   "CMakeFiles/interface.dir/src/interface.cpp.o.d"
+  "CMakeFiles/interface.dir/src/util/hash.cpp.o"
+  "CMakeFiles/interface.dir/src/util/hash.cpp.o.d"
   "libinterface.pdb"
   "libinterface.so"
 )

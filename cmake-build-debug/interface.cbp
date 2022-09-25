@@ -86,10 +86,22 @@
 		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/common.h">
 			<Option target="interface"/>
 		</Unit>
+		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/config/config.cpp">
+			<Option target="interface"/>
+		</Unit>
+		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/config/config.h">
+			<Option target="interface"/>
+		</Unit>
 		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/interface.cpp">
 			<Option target="interface"/>
 		</Unit>
 		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/interface.h">
+			<Option target="interface"/>
+		</Unit>
+		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/util/hash.cpp">
+			<Option target="interface"/>
+		</Unit>
+		<Unit filename="/home/qianyangyang/ide/clion/woaikv/src/util/hash.h">
 			<Option target="interface"/>
 		</Unit>
 		<Unit filename="/home/qianyangyang/ide/clion/woaikv/CMakeLists.txt">

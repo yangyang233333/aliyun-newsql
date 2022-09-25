@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC -Werror -Wextra -Ofast -shared -Wl,-soname,libinterface.so -o libinterface.so CMakeFiles/interface.dir/src/common.cpp.o CMakeFiles/interface.dir/src/interface.cpp.o  -lLIB_PMEM-NOTFOUND 
+/usr/bin/c++ -fPIC -Werror -Wextra -Ofast -shared -Wl,-soname,libinterface.so -o libinterface.so CMakeFiles/interface.dir/src/common.cpp.o CMakeFiles/interface.dir/src/config/config.cpp.o CMakeFiles/interface.dir/src/interface.cpp.o CMakeFiles/interface.dir/src/util/hash.cpp.o  -lLIB_PMEM-NOTFOUND 

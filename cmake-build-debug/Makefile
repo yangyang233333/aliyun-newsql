@@ -153,6 +153,30 @@ src/common.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/common.cpp.s
 .PHONY : src/common.cpp.s
 
+src/config/config.o: src/config/config.cpp.o
+.PHONY : src/config/config.o
+
+# target to build an object file
+src/config/config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/config/config.cpp.o
+.PHONY : src/config/config.cpp.o
+
+src/config/config.i: src/config/config.cpp.i
+.PHONY : src/config/config.i
+
+# target to preprocess a source file
+src/config/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/config/config.cpp.i
+.PHONY : src/config/config.cpp.i
+
+src/config/config.s: src/config/config.cpp.s
+.PHONY : src/config/config.s
+
+# target to generate assembly for a file
+src/config/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/config/config.cpp.s
+.PHONY : src/config/config.cpp.s
+
 src/interface.o: src/interface.cpp.o
 .PHONY : src/interface.o
 
@@ -177,6 +201,30 @@ src/interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/interface.cpp.s
 .PHONY : src/interface.cpp.s
 
+src/util/hash.o: src/util/hash.cpp.o
+.PHONY : src/util/hash.o
+
+# target to build an object file
+src/util/hash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/util/hash.cpp.o
+.PHONY : src/util/hash.cpp.o
+
+src/util/hash.i: src/util/hash.cpp.i
+.PHONY : src/util/hash.i
+
+# target to preprocess a source file
+src/util/hash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/util/hash.cpp.i
+.PHONY : src/util/hash.cpp.i
+
+src/util/hash.s: src/util/hash.cpp.s
+.PHONY : src/util/hash.s
+
+# target to generate assembly for a file
+src/util/hash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/src/util/hash.cpp.s
+.PHONY : src/util/hash.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +237,15 @@ help:
 	@echo "... src/common.o"
 	@echo "... src/common.i"
 	@echo "... src/common.s"
+	@echo "... src/config/config.o"
+	@echo "... src/config/config.i"
+	@echo "... src/config/config.s"
 	@echo "... src/interface.o"
 	@echo "... src/interface.i"
 	@echo "... src/interface.s"
+	@echo "... src/util/hash.o"
+	@echo "... src/util/hash.i"
+	@echo "... src/util/hash.s"
 .PHONY : help
 
 
