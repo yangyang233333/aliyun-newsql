@@ -1,4 +1,9 @@
-Cannot generate into \\wsl$\Ubuntu-22.04\home\qianyy\woaikv\cmake-build-debug
-It is already used for project \home\qianyy\woaikv
+"C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S \\wsl$\Ubuntu-22.04\home\qianyy\woaikv -B \\wsl$\Ubuntu-22.04\home\qianyy\woaikv\cmake-build-debug
+-- Configuring done
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+LIB_PMEM
+    linked by target "interface" in directory //wsl$/Ubuntu-22.04/home/qianyy/woaikv
 
-Please either delete it manually or select another generation directory
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.
