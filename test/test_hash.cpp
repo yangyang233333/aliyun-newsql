@@ -1,7 +1,7 @@
 //
 // Created by qianyangyang on 9/25/22.
 //
-#inclde <stdint.h>
+#include <stdint.h>
 
 #include <iostream>
 #include <functional>
@@ -16,15 +16,9 @@ struct User {
 };
 
 int main() {
-    User user{};
-    user.id = 45;
-    std::hash <User> hash_fn;
-    int64_t n = hash_fn(user);
+    //hash的用法
+    std::hash <string> hash_fn;
+    size_t n = hash_fn("1");
     cout << n << endl;
-//    std::string str = "Meet the new boss...";
-//    std::hash <std::string> hash_fn;
-//    int64_t str_hash = hash_fn(str);
-//
-//    std::cout << str_hash << '\n';
-//    cout << sizeof(size_t) << endl;
 }
+

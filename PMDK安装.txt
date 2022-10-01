@@ -1,3 +1,5 @@
+# 依次运行以下命令即可安装
+
 # all runtime
 sudo apt-get install libpmem1 librpmem1 libpmemblk1 libpmemlog1 libpmemobj1 libpmempool1
 
