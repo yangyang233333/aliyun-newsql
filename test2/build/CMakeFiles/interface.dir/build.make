@@ -83,19 +83,19 @@ CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/woaikv/src/common.cpp -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.s
 
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o: CMakeFiles/interface.dir/flags.make
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o: /home/qianyy/woaikv/src/config/config.cpp
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o: CMakeFiles/interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qianyy/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o -MF CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o.d -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o -c /home/qianyy/woaikv/src/config/config.cpp
+CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o: CMakeFiles/interface.dir/flags.make
+CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o: /home/qianyy/woaikv/src/corekv/index.cpp
+CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o: CMakeFiles/interface.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qianyy/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o -MF CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o.d -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o -c /home/qianyy/woaikv/src/corekv/index.cpp
 
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qianyy/woaikv/src/config/config.cpp > CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.i
+CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qianyy/woaikv/src/corekv/index.cpp > CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.i
 
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/woaikv/src/config/config.cpp -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.s
+CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/woaikv/src/corekv/index.cpp -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.s
 
 CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o: CMakeFiles/interface.dir/flags.make
 CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o: /home/qianyy/woaikv/src/interface.cpp
@@ -111,38 +111,22 @@ CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/woaikv/src/interface.cpp -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.s
 
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o: CMakeFiles/interface.dir/flags.make
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o: /home/qianyy/woaikv/src/util/enter_hash.cpp
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o: CMakeFiles/interface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qianyy/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o -MF CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o.d -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o -c /home/qianyy/woaikv/src/util/enter_hash.cpp
-
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qianyy/woaikv/src/util/enter_hash.cpp > CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.i
-
-CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/woaikv/src/util/enter_hash.cpp -o CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.s
-
 # Object files for target interface
 interface_OBJECTS = \
 "CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o" \
-"CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o" \
-"CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o" \
-"CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o"
+"CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o" \
+"CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o"
 
 # External object files for target interface
 interface_EXTERNAL_OBJECTS =
 
 libinterface.so: CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o
-libinterface.so: CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o
+libinterface.so: CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o
 libinterface.so: CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o
-libinterface.so: CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o
 libinterface.so: CMakeFiles/interface.dir/build.make
 libinterface.so: /usr/lib/x86_64-linux-gnu/libpmem.so
 libinterface.so: CMakeFiles/interface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qianyy/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libinterface.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qianyy/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libinterface.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Werror -Wextra -Ofast -rdynamic CMakeFiles/test_main.dir/test_main.cpp.o -o test_main  -Wl,-rpath,/home/qianyy/woaikv/test2/build libinterface.so -lpmem 

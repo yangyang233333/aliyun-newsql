@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o.d"
-  "CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o"
-  "CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o.d"
+  "CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o"
+  "CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o.d"
   "CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o.d"
-  "CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o"
-  "CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o.d"
   "libinterface.pdb"
   "libinterface.so"
 )

@@ -15,4 +15,3 @@ add_library(${PROJECT_NAME} SHARED ${SRC}) # 编译成动态库
 
 find_library(LIB_PMEM pmem)
 target_link_libraries(${PROJECT_NAME} ${LIB_PMEM}) # 链接
-

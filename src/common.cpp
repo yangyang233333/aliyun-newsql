@@ -3,6 +3,7 @@
 //
 
 #include "common.h"
+#include <libpmem.h>
 
 namespace woaikv{
 

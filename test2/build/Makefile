@@ -130,17 +130,17 @@ interface/fast:
 .PHONY : interface/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named test_main
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
+test_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_main
+.PHONY : test_main
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+test_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_main.dir/build.make CMakeFiles/test_main.dir/build
+.PHONY : test_main/fast
 
 home/qianyy/woaikv/src/common.o: home/qianyy/woaikv/src/common.cpp.o
 .PHONY : home/qianyy/woaikv/src/common.o
@@ -166,29 +166,29 @@ home/qianyy/woaikv/src/common.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.s
 .PHONY : home/qianyy/woaikv/src/common.cpp.s
 
-home/qianyy/woaikv/src/config/config.o: home/qianyy/woaikv/src/config/config.cpp.o
-.PHONY : home/qianyy/woaikv/src/config/config.o
+home/qianyy/woaikv/src/corekv/index.o: home/qianyy/woaikv/src/corekv/index.cpp.o
+.PHONY : home/qianyy/woaikv/src/corekv/index.o
 
 # target to build an object file
-home/qianyy/woaikv/src/config/config.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o
-.PHONY : home/qianyy/woaikv/src/config/config.cpp.o
+home/qianyy/woaikv/src/corekv/index.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.o
+.PHONY : home/qianyy/woaikv/src/corekv/index.cpp.o
 
-home/qianyy/woaikv/src/config/config.i: home/qianyy/woaikv/src/config/config.cpp.i
-.PHONY : home/qianyy/woaikv/src/config/config.i
+home/qianyy/woaikv/src/corekv/index.i: home/qianyy/woaikv/src/corekv/index.cpp.i
+.PHONY : home/qianyy/woaikv/src/corekv/index.i
 
 # target to preprocess a source file
-home/qianyy/woaikv/src/config/config.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.i
-.PHONY : home/qianyy/woaikv/src/config/config.cpp.i
+home/qianyy/woaikv/src/corekv/index.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.i
+.PHONY : home/qianyy/woaikv/src/corekv/index.cpp.i
 
-home/qianyy/woaikv/src/config/config.s: home/qianyy/woaikv/src/config/config.cpp.s
-.PHONY : home/qianyy/woaikv/src/config/config.s
+home/qianyy/woaikv/src/corekv/index.s: home/qianyy/woaikv/src/corekv/index.cpp.s
+.PHONY : home/qianyy/woaikv/src/corekv/index.s
 
 # target to generate assembly for a file
-home/qianyy/woaikv/src/config/config.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.s
-.PHONY : home/qianyy/woaikv/src/config/config.cpp.s
+home/qianyy/woaikv/src/corekv/index.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/corekv/index.cpp.s
+.PHONY : home/qianyy/woaikv/src/corekv/index.cpp.s
 
 home/qianyy/woaikv/src/interface.o: home/qianyy/woaikv/src/interface.cpp.o
 .PHONY : home/qianyy/woaikv/src/interface.o
@@ -214,36 +214,12 @@ home/qianyy/woaikv/src/interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.s
 .PHONY : home/qianyy/woaikv/src/interface.cpp.s
 
-home/qianyy/woaikv/src/util/enter_hash.o: home/qianyy/woaikv/src/util/enter_hash.cpp.o
-.PHONY : home/qianyy/woaikv/src/util/enter_hash.o
-
-# target to build an object file
-home/qianyy/woaikv/src/util/enter_hash.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o
-.PHONY : home/qianyy/woaikv/src/util/enter_hash.cpp.o
-
-home/qianyy/woaikv/src/util/enter_hash.i: home/qianyy/woaikv/src/util/enter_hash.cpp.i
-.PHONY : home/qianyy/woaikv/src/util/enter_hash.i
-
-# target to preprocess a source file
-home/qianyy/woaikv/src/util/enter_hash.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.i
-.PHONY : home/qianyy/woaikv/src/util/enter_hash.cpp.i
-
-home/qianyy/woaikv/src/util/enter_hash.s: home/qianyy/woaikv/src/util/enter_hash.cpp.s
-.PHONY : home/qianyy/woaikv/src/util/enter_hash.s
-
-# target to generate assembly for a file
-home/qianyy/woaikv/src/util/enter_hash.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.s
-.PHONY : home/qianyy/woaikv/src/util/enter_hash.cpp.s
-
 test_main.o: test_main.cpp.o
 .PHONY : test_main.o
 
 # target to build an object file
 test_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test_main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_main.dir/build.make CMakeFiles/test_main.dir/test_main.cpp.o
 .PHONY : test_main.cpp.o
 
 test_main.i: test_main.cpp.i
@@ -251,7 +227,7 @@ test_main.i: test_main.cpp.i
 
 # target to preprocess a source file
 test_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test_main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_main.dir/build.make CMakeFiles/test_main.dir/test_main.cpp.i
 .PHONY : test_main.cpp.i
 
 test_main.s: test_main.cpp.s
@@ -259,7 +235,7 @@ test_main.s: test_main.cpp.s
 
 # target to generate assembly for a file
 test_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/test_main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_main.dir/build.make CMakeFiles/test_main.dir/test_main.cpp.s
 .PHONY : test_main.cpp.s
 
 # Help Target
@@ -271,19 +247,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... interface"
-	@echo "... main"
+	@echo "... test_main"
 	@echo "... home/qianyy/woaikv/src/common.o"
 	@echo "... home/qianyy/woaikv/src/common.i"
 	@echo "... home/qianyy/woaikv/src/common.s"
-	@echo "... home/qianyy/woaikv/src/config/config.o"
-	@echo "... home/qianyy/woaikv/src/config/config.i"
-	@echo "... home/qianyy/woaikv/src/config/config.s"
+	@echo "... home/qianyy/woaikv/src/corekv/index.o"
+	@echo "... home/qianyy/woaikv/src/corekv/index.i"
+	@echo "... home/qianyy/woaikv/src/corekv/index.s"
 	@echo "... home/qianyy/woaikv/src/interface.o"
 	@echo "... home/qianyy/woaikv/src/interface.i"
 	@echo "... home/qianyy/woaikv/src/interface.s"
-	@echo "... home/qianyy/woaikv/src/util/enter_hash.o"
-	@echo "... home/qianyy/woaikv/src/util/enter_hash.i"
-	@echo "... home/qianyy/woaikv/src/util/enter_hash.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"
