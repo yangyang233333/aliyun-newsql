@@ -6,7 +6,7 @@
 #ifndef CLION_COMMON_H
 #define CLION_COMMON_H
 
-namespace woaikv {
+namespace corekv {
     //定义Entry结构
     struct User {
         int64_t id;
