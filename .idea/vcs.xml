@@ -2,15 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/g" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/grpc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/grpc/third_party/abseil-cpp" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/grpc/third_party/benchmark" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/grpc/third_party/bloaty" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/grpc/third_party/boringssl-with-bazel" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pmdk" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/test/grpc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/test/grpc-examples" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/test/pmdk-examples" vcs="Git" />
   </component>
 </project>

@@ -1,69 +1,82 @@
 #include <stdio.h>
+#include <string.h>
 #include <sys/types.h>
 #include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
 #include <unistd.h>
-#include<string.h>
+#include <arpa/inet.h>
+#include <errno.h>
+#include <signal.h>
+#include <errno.h>
+#include <stdlib.h>
 
-using namespace std;
+#define SERVER_IP "127.0.0.1"
+#define SERVER_PORT 5001
+#define LISTEN_BACKLOG 50
 
-int main(int argc, char *argv[]) {
-    int server_sockfd;//服务器端套接字
-    int client_sockfd;//客户端套接字
-    int len;
-    struct sockaddr_in my_addr;   //服务器网络地址结构体
-    struct sockaddr_in remote_addr; //客户端网络地址结构体
-    int sin_size;
-    char buf[BUFSIZ];  //数据传送的缓冲区
-    memset(&my_addr, 0, sizeof(my_addr)); //数据初始化--清零
-    my_addr.sin_family = AF_INET; //设置为IP通信
-    my_addr.sin_addr.s_addr = INADDR_ANY;//服务器IP地址--允许连接到所有本地地址上
-    my_addr.sin_port = htons(8000); //服务器端口号
+#define handle_error(msg) do { perror(msg); exit(EXIT_FAILURE); } while (0)
 
-    /*创建服务器端套接字--IPv4协议，面向连接通信，TCP协议*/
-    if ((server_sockfd = socket(PF_INET, SOCK_STREAM, 0)) < 0) {
-        perror("socket error");
-        return 1;
+void ServerProcess(void) {
+    int serverSockfd = -1;
+    int acceptSockfd = -1;
+    socklen_t addrLen = 0;
+    char recvBuf[1024] = {0};
+    int recvLen = 0;
+
+    struct sockaddr_in tSocketServerAddr;
+    struct sockaddr_in tSocketClientAddr;
+
+    tSocketServerAddr.sin_family = AF_INET;
+    tSocketServerAddr.sin_port = htons(SERVER_PORT);
+    tSocketServerAddr.sin_addr.s_addr = htons(INADDR_ANY);
+
+    /* 1. 创建socket */
+    serverSockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (-1 == serverSockfd) {
+        handle_error("socket");
     }
 
-
-    /*将套接字绑定到服务器的网络地址上*/
-    if (bind(server_sockfd, (struct sockaddr *) &my_addr, sizeof(struct sockaddr)) < 0) {
-        perror("bind error");
-        return 1;
+    /* 2. 绑定socket	 */
+    if (-1 == bind(serverSockfd, (struct sockaddr *) &tSocketServerAddr, sizeof(struct sockaddr_in))) {
+        handle_error("bind");
     }
 
-    /*监听连接请求--监听队列长度为5*/
-    if (listen(server_sockfd, 5) < 0) {
-        perror("listen error");
-        return 1;
-    };
-
-    sin_size = sizeof(struct sockaddr_in);
-
-    /*等待客户端连接请求到达*/
-    if ((client_sockfd = accept(server_sockfd, (struct sockaddr *) &remote_addr, &sin_size)) < 0) {
-        perror("accept error");
-        return 1;
+    /* 3. 监听   */
+    if (-1 == listen(serverSockfd, LISTEN_BACKLOG)) {
+        handle_error("listen");
     }
-    printf("accept client %s",inet_ntoa(remote_addr.sin_addr));
-    len = send(client_sockfd, "Welcome to my server",21,0);//发送欢迎信息
 
-    /*接收客户端的数据并将其发送给客户端--recv返回接收到的字节数，send返回发送的字节数*/
-    while ((len = recv(client_sockfd, buf, BUFSIZ, 0)) > 0))
-    {
-        buf[len] = '/0';
-        printf("%s",buf);
-        if (send(client_sockfd, buf, len, 0) < 0) {
-            perror("write error");
-            return 1;
+    while (1) {
+        addrLen = sizeof(struct sockaddr);
+        acceptSockfd = accept(serverSockfd, (struct sockaddr *) &tSocketClientAddr, &addrLen);
+
+        if (-1 != acceptSockfd) {
+            printf("Connected Client IP : %s  \n", inet_ntoa(tSocketClientAddr.sin_addr));
+            printf("Waiting client send message...\n");
+
+            /* 创建子进程,用于多个client连接	*/
+            if (0 == fork()) {
+                while (1) {
+                    /* 阻塞接收客户端数据, 收到后返回,并打印 */
+                    recvLen = recv(acceptSockfd, recvBuf, 1023, 0);
+
+                    if (recvLen <= 0) {
+                        close(acceptSockfd);
+                        return;
+                    } else {
+                        recvBuf[recvLen] = '\0';
+                        printf("Client: %s\n", recvBuf);
+                    }
+                }
+            }
+        } else {
+            handle_error("accept");
         }
     }
+    close(serverSockfd);
+    serverSockfd = -1;
+}
 
-    /*关闭套接字*/
-    close(client_sockfd);
-    close(server_sockfd);
-
+int main(int argc, char *argv[]) {
+    ServerProcess();
     return 0;
 }

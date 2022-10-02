@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -Werror -Wextra -Ofast -shared -Wl,-soname,libinterface.so -o libinterface.so CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o CMakeFiles/interface.dir/home/qianyy/woaikv/src/interface.cpp.o CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o  -lpmem 

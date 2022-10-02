@@ -20,5 +20,8 @@ int main() {
     std::hash <string> hash_fn;
     size_t n = hash_fn("1");
     cout << n << endl;
+    cout << sizeof(n)<< endl;
+    cout<<UINT32_MAX<<endl;
+
 }
 

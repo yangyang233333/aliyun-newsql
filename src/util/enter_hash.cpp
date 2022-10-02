@@ -5,7 +5,7 @@
 #include "entry_hash.h"
 
 namespace woaikv {
-    std::hash<User> user_hash;
+//    std::hash<User> user_hash;
 
 
 

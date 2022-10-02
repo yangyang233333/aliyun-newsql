@@ -10,11 +10,11 @@
 #define CLION_HASH_H
 
 namespace woaikv {
-    extern std::hash<User> user_hash;
+//    extern std::hash<User> user_hash;
 
-    int64_t hash_entry(User &user) {
-        return user_hash(user);
-    }
+//    int64_t hash_entry(User &user) {
+//        return user_hash(user);
+//    }
 
 }
 
