@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qianyy/work/woaikv/src/common.cpp
+common.h
+/home/qianyy/work/woaikv/src/common.h
+libpmem.h
+-
+
+/home/qianyy/work/woaikv/src/common.h
+stdint.h
+-
+
+/home/qianyy/work/woaikv/src/corekv/index.cpp
+index.h
+/home/qianyy/work/woaikv/src/corekv/index.h
+
+/home/qianyy/work/woaikv/src/corekv/index.h
+
+/home/qianyy/work/woaikv/src/interface.cpp
+interface.h
+/home/qianyy/work/woaikv/src/interface.h
+iostream
+-
+vector
+-
+string.h
+-
+string
+-
+
+/home/qianyy/work/woaikv/src/interface.h
+stdint.h
+-
+stdio.h
+-
+
