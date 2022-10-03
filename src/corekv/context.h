@@ -5,11 +5,19 @@
 #ifndef INTERFACE_CONTEXT_H
 #define INTERFACE_CONTEXT_H
 
-#include <string>
 
+#include <string>
+#include <string.h>
 namespace corekv {
     //Context的定义
-    struct Context {
+    class Context {
+    public:
+        Context() = default;
+
+        void parse_file_to_get_offset();
+
+
+    public:
         //PMEM文件相关
         std::string filepath = ""; //PMEM文件的路径，例如/mnt/aep/file1
         char *fileaddr = nullptr;   //PMEM文件地址

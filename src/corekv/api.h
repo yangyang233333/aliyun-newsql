@@ -8,7 +8,6 @@
 #include <string>
 #include <iostream>
 #include <string.h>
-#include "common.h"
 
 namespace corekv {
 

@@ -1,6 +1,7 @@
 //
 // Created by qianyy on 10/3/22.
 //
+#include "utils/checksum.h"
 #include "common.h"
 #include "api.h"
 #include "global_var.h"
@@ -42,7 +43,7 @@ namespace corekv {
         context.offset = 0; //下一条数据应该写入的位置
 
         // 创建文件
-        //2亿条272+8B的数据，大约52.15 GB，所以开辟55 GB的空间
+        // 2亿条272+8B的数据，大约52.15 GB，所以开辟55 GB的空间
         if ((context.fileaddr = (char *) pmem_map_file(context.filepath.c_str(),
                                                        context.file_size,
                                                        PMEM_FILE_CREATE,
@@ -53,23 +54,8 @@ namespace corekv {
             exit(1);
         }
 
-        //解析文件，获取下一条数据的写入位置
-
-
-
-
-//        string HOST_INFO = host_info;
-//
-//        string AEP_DIR = aep_dir;
-//        string DISK_DIR = disk_dir;
-//        size_t PEER_HOST_INFO_NUM = peer_host_info_num;
-//
-//        cout << "HOST_INFO=" << HOST_INFO << ", AEP_DIR=" << AEP_DIR << ", DISK_DIR=" << DISK_DIR
-//             << ", PEER_HOST_INFO_NUM="
-//             << PEER_HOST_INFO_NUM << endl;
-//        for (size_t i = 0; i < peer_host_info_num; ++i) {
-//            cout << "第 [" << i << "] 次：" << peer_host_info[i] << endl;
-//        }
+        //解析文件，获取下一条数据的写入位置(即offset)
+        context.parse_file_to_get_offset();
 
         return nullptr;
     }
@@ -86,8 +72,12 @@ namespace corekv {
      *
      * */
     void engine_write(void *ctx, const void *data, size_t len) {
-        User user;
-        memcpy(&user, data, len);
+        //写数据的步骤
+        // 1. 先写磁盘
+
+
+        // 2. 后更新索引
+
 
     }
 
