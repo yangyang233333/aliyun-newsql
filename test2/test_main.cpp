@@ -46,10 +46,17 @@ void test_atomic() {
 
 int main() {
 //    test_atomic();
+    multimap<int64_t, int32_t> mm;
+    mm.insert(make_pair(1, 1));
+    mm.insert(make_pair(1, 2));
 
-    atomic<int64_t> aa{0};
-    auto a = aa++;
-    cout << "a=" << a << " aa=" << aa << endl;
+    auto range = mm.equal_range(1);
+    for (auto iter = range.first;
+         iter != range.second; ++iter) {
+        auto a = iter->first;
+        auto b = iter->second;
+    }
+
 
 //    cout << "Hello World!" << endl;
 //    const char *aep_dir = "/mnt/aep/";

@@ -82,15 +82,15 @@ namespace corekv {
         pmem_memcpy_persist(context.fileaddr + offset * 280 + 272, &checksum, 8);
 
         // 2. 后更新索引
-        index.id_map[user->id] = offset;
-        index.uid_map[] = offset;
-        index.salary_map.insert(std::make_pair(user->salary ,offset));
-
+        index.pk_insert(user->id, offset);
+        string _user_id(user->user_id, 128);
+        index.uk_insert(_user_id, offset);
+        index.sk_insert(user->salary, offset);
     }
 
     size_t engine_read(void *ctx, int32_t select_column,
                        int32_t where_column, const void *column_key, size_t column_key_len, void *res) {
-
+        
 
         return 0;
     }

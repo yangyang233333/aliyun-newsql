@@ -56,10 +56,36 @@ namespace corekv {
 
     int32_t Index::uk_get(string &user_id) const {
         int64_t hash_val = hash_fn(user_id);
-        if (){
-
+        auto f = uid_map.find(hash_val);
+        if (f == uid_map.end()) {
+            return -5;//表示未找到
+        } else {
+            if (f->second == -10) {
+                //此时存在，但是有冲突。需要进一步到uid_map2查找
+                auto ff = uid_map2.find(user_id);
+                return ff->second;
+            } else {
+                //此时存在，并且没有冲突，所以直接返回uid_map的数据即可
+                return f->second;
+            }
         }
+    }
 
+    int32_t Index::sk_insert(int64_t salsry, int32_t offset) {
+        this->salary_map.insert(std::make_pair(salsry, offset));
+        return 0;
+    }
+
+    int32_t Index::sk_get(int64_t salary, vector<int32_t> &offset_vec) {
+        auto range = salary_map.equal_range(salary);
+        for (auto iter = range.first;
+             iter != range.second; ++iter) {
+            offset_vec.push_back(iter->second);
+        }
+        if (offset_vec.empty()) {
+            return -5; //表示没找到
+        }
+        return 0;
     }
 
 }
