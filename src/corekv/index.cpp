@@ -6,6 +6,7 @@
 #include "index.h"
 #include "utils/utils.h"
 #include <string.h>
+#include "common.h"
 
 namespace corekv {
 
@@ -89,12 +90,20 @@ namespace corekv {
     }
 
     void Index::build_index() {
-
-
-
-
-
-
+        for (int32_t i = 0; i < context.offset; ++i) {
+            User user{};
+            int64_t checksum;
+            //todo:这里可以换掉memcpy，直接使用指针转换
+            memcpy(&user, context.fileaddr + i * 280L, 272);
+            memcpy(&checksum, context.fileaddr + i + 280L + 272, 8);
+            if (check_sum(user.id) == checksum) {
+                //更新索引
+                pk_insert(user.id, i);
+                string uid_str(user.user_id, 128);
+                uk_insert(uid_str, i);
+                sk_insert(user.salary, i);
+            }
+        }
     }
 
 }

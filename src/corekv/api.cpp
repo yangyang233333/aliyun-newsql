@@ -59,14 +59,15 @@ namespace corekv {
         context.parse_file_to_get_offset();
 
         //todo:扫描文件，建立索引
-        
+
+
+
 
         return nullptr;
     }
 
     void engine_deinit(void *ctx) {
         cout << "调用了一次【engine_deinit】." << endl;
-
     }
 
     /*
@@ -74,7 +75,6 @@ namespace corekv {
      * +---------+---------------+------------+------------+--------------+
      * |  id(8B) | user_id(128B) | name(128B) | salary(8B) | checksum(8B) |
      * +---------+---------------+------------+------------+--------------+
-     *
      * */
     void engine_write(void *ctx, const void *data, size_t len) {
         cout << "调用了一次【engine_write】." << endl;
