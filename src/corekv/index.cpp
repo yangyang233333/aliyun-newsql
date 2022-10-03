@@ -88,4 +88,13 @@ namespace corekv {
         return 0;
     }
 
+    void Index::build_index() {
+
+
+
+
+
+
+    }
+
 }

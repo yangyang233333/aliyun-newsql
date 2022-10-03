@@ -15,6 +15,13 @@ namespace corekv {
         int64_t salary;
     };
 
+    enum Column {
+        Id = 0,
+        Userid,
+        Name,
+        Salary
+    };
+
 
 }
 

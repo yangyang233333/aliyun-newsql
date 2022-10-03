@@ -21,6 +21,9 @@ namespace corekv {
     public:
         Index() = default;
 
+        //扫描全局文件，建立索引
+        void build_index();
+
         //pk指id，主键
         int32_t pk_insert(int64_t id, int32_t offset);
 
@@ -34,7 +37,8 @@ namespace corekv {
 
         //sk指salary，有重复
         int32_t sk_insert(int64_t salsry, int32_t offset);
-        int32_t sk_get(int64_t salary, vector<int32_t>& offset_vec);
+
+        int32_t sk_get(int64_t salary, vector <int32_t> &offset_vec);
 
     private:
         //下面三个分别是id、uid、salary在内存中的索引

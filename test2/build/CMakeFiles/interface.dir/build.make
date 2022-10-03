@@ -148,18 +148,18 @@ CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp -o CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s
 
-CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o: CMakeFiles/interface.dir/flags.make
-CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o: /home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qianyy/work/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o -c /home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o: CMakeFiles/interface.dir/flags.make
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o: /home/qianyy/work/woaikv/src/corekv/utils/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qianyy/work/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o -c /home/qianyy/work/woaikv/src/corekv/utils/utils.cpp
 
-CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp > CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qianyy/work/woaikv/src/corekv/utils/utils.cpp > CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i
 
-CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp -o CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qianyy/work/woaikv/src/corekv/utils/utils.cpp -o CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s
 
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o: CMakeFiles/interface.dir/flags.make
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o: /home/qianyy/work/woaikv/src/interface.cpp
@@ -183,7 +183,7 @@ interface_OBJECTS = \
 "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" \
 "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/context.cpp.o" \
 "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.o" \
-"CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o" \
+"CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o" \
 "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o"
 
 # External object files for target interface
@@ -196,7 +196,7 @@ libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/glo
 libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o
 libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/context.cpp.o
 libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.o
-libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
+libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o
 libinterface.so: CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o
 libinterface.so: CMakeFiles/interface.dir/build.make
 libinterface.so: /usr/lib/x86_64-linux-gnu/libpmem.so

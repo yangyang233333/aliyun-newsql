@@ -325,32 +325,32 @@ home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s
 .PHONY : home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s
 
-home/qianyy/work/woaikv/src/corekv/utils/checksum.o: home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
+home/qianyy/work/woaikv/src/corekv/utils/utils.o: home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o
 
-.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.o
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/utils.o
 
 # target to build an object file
-home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o:
-	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
-.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
+home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o
 
-home/qianyy/work/woaikv/src/corekv/utils/checksum.i: home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
+home/qianyy/work/woaikv/src/corekv/utils/utils.i: home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i
 
-.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.i
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/utils.i
 
 # target to preprocess a source file
-home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i:
-	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
-.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
+home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.i
 
-home/qianyy/work/woaikv/src/corekv/utils/checksum.s: home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
+home/qianyy/work/woaikv/src/corekv/utils/utils.s: home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s
 
-.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.s
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/utils.s
 
 # target to generate assembly for a file
-home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s:
-	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
-.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
+home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.s
 
 home/qianyy/work/woaikv/src/interface.o: home/qianyy/work/woaikv/src/interface.cpp.o
 
@@ -437,9 +437,9 @@ help:
 	@echo "... home/qianyy/work/woaikv/src/corekv/meta/filemeta.o"
 	@echo "... home/qianyy/work/woaikv/src/corekv/meta/filemeta.i"
 	@echo "... home/qianyy/work/woaikv/src/corekv/meta/filemeta.s"
-	@echo "... home/qianyy/work/woaikv/src/corekv/utils/checksum.o"
-	@echo "... home/qianyy/work/woaikv/src/corekv/utils/checksum.i"
-	@echo "... home/qianyy/work/woaikv/src/corekv/utils/checksum.s"
+	@echo "... home/qianyy/work/woaikv/src/corekv/utils/utils.o"
+	@echo "... home/qianyy/work/woaikv/src/corekv/utils/utils.i"
+	@echo "... home/qianyy/work/woaikv/src/corekv/utils/utils.s"
 	@echo "... home/qianyy/work/woaikv/src/interface.o"
 	@echo "... home/qianyy/work/woaikv/src/interface.i"
 	@echo "... home/qianyy/work/woaikv/src/interface.s"

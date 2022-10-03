@@ -6,7 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/context.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.o"
-  "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o"
+  "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o"
   "libinterface.pdb"
   "libinterface.so"
