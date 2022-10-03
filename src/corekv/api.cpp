@@ -59,9 +59,7 @@ namespace corekv {
         context.parse_file_to_get_offset();
 
         //todo:扫描文件，建立索引
-
-
-
+        index.build_index();
 
         return nullptr;
     }

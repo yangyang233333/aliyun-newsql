@@ -44,6 +44,13 @@ void test_atomic() {
     cout << "ai=" << ai << endl;
 }
 
+// 测试以下corekv
+void test_corekv() {
+
+
+
+};
+
 int main() {
 //    test_atomic();
     multimap<int64_t, int32_t> mm;
