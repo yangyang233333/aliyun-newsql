@@ -4,9 +4,15 @@
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o: /home/qianyy/work/woaikv/src/corekv/api.cpp
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o: /home/qianyy/work/woaikv/src/corekv/api.h
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o: /home/qianyy/work/woaikv/src/corekv/common.h
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o: /home/qianyy/work/woaikv/src/corekv/context.h
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o: /home/qianyy/work/woaikv/src/corekv/global_var.h
 
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/cache.cpp.o: /home/qianyy/work/woaikv/src/corekv/cache.cpp
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/cache.cpp.o: /home/qianyy/work/woaikv/src/corekv/cache.h
+
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.o: /home/qianyy/work/woaikv/src/corekv/context.h
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.o: /home/qianyy/work/woaikv/src/corekv/global_var.cpp
+CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.o: /home/qianyy/work/woaikv/src/corekv/global_var.h
 
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o: /home/qianyy/work/woaikv/src/corekv/index.cpp
 CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o: /home/qianyy/work/woaikv/src/corekv/index.h

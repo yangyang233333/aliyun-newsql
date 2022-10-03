@@ -5,7 +5,5 @@
 #include "index.h"
 
 namespace corekv{
-    Index::Index() {
 
-    }
 }

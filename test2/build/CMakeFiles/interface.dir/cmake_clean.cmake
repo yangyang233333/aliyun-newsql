@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/cache.cpp.o"
+  "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/context.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.o"

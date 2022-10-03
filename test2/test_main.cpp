@@ -27,5 +27,7 @@ int main() {
     const char *aep_dir = "/mnt/aep/";
     cout << aep_dir << endl;
 
+    int64_t file_size = 55L * 1024 * 1024 * 1024;//55GB
+    cout<<file_size<<endl;
 }
 

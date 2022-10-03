@@ -5,7 +5,7 @@
 #ifndef CLION_COMMON_H
 #define CLION_COMMON_H
 #include <stdint.h>
-
+//#include ""
 namespace corekv {
     //定义Entry结构
     struct User {
@@ -14,6 +14,8 @@ namespace corekv {
         char name[128];
         int64_t salary;
     };
+
+
 }
 
 #endif //CLION_COMMON_H

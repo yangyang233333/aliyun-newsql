@@ -3,7 +3,16 @@
 //
 #include "common.h"
 #include "api.h"
+#include "global_var.h"
 
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <errno.h>
+#include <stdlib.h>
+#include <string.h>
+#include <libpmem.h>
 #include <libpmem.h>
 
 
@@ -23,18 +32,44 @@ namespace corekv {
 */
     void *engine_init(const char *host_info, const char *const *peer_host_info, size_t peer_host_info_num,
                       const char *aep_dir, const char *disk_dir) {
-        string HOST_INFO = host_info;
+        cout << "调用了一次【engine_init】." << endl;
 
-        string AEP_DIR = aep_dir;
-        string DISK_DIR = disk_dir;
-        size_t PEER_HOST_INFO_NUM = peer_host_info_num;
+        //Context结构体初始化
+        string AEP_DIR = aep_dir; //"/mnt/aep/"
+        string DISK_DIR = disk_dir; //"/mnt/disk/"
+        context.filepath = AEP_DIR + "pmem_file";
+        context.file_size = 55L * 1024 * 1024 * 1024;//55GB
+        context.offset = 0; //下一条数据应该写入的位置
 
-        cout << "HOST_INFO=" << HOST_INFO << ", AEP_DIR=" << AEP_DIR << ", DISK_DIR=" << DISK_DIR
-             << ", PEER_HOST_INFO_NUM="
-             << PEER_HOST_INFO_NUM << endl;
-        for (size_t i = 0; i < peer_host_info_num; ++i) {
-            cout << "第 [" << i << "] 次：" << peer_host_info[i] << endl;
+        // 创建文件
+        //2亿条272+8B的数据，大约52.15 GB，所以开辟55 GB的空间
+        if ((context.fileaddr = (char *) pmem_map_file(context.filepath.c_str(),
+                                                       context.file_size,
+                                                       PMEM_FILE_CREATE,
+                                                       0666,
+                                                       &context.mapped_len,
+                                                       &context.is_pmem)) == nullptr) {
+            cout << "文件创建失败！" << endl;
+            exit(1);
         }
+
+        //解析文件，获取下一条数据的写入位置
+
+
+
+
+//        string HOST_INFO = host_info;
+//
+//        string AEP_DIR = aep_dir;
+//        string DISK_DIR = disk_dir;
+//        size_t PEER_HOST_INFO_NUM = peer_host_info_num;
+//
+//        cout << "HOST_INFO=" << HOST_INFO << ", AEP_DIR=" << AEP_DIR << ", DISK_DIR=" << DISK_DIR
+//             << ", PEER_HOST_INFO_NUM="
+//             << PEER_HOST_INFO_NUM << endl;
+//        for (size_t i = 0; i < peer_host_info_num; ++i) {
+//            cout << "第 [" << i << "] 次：" << peer_host_info[i] << endl;
+//        }
 
         return nullptr;
     }

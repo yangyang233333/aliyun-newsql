@@ -190,6 +190,33 @@ home/qianyy/work/woaikv/src/corekv/cache.cpp.s:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/cache.cpp.s
 .PHONY : home/qianyy/work/woaikv/src/corekv/cache.cpp.s
 
+home/qianyy/work/woaikv/src/corekv/global_var.o: home/qianyy/work/woaikv/src/corekv/global_var.cpp.o
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/global_var.o
+
+# target to build an object file
+home/qianyy/work/woaikv/src/corekv/global_var.cpp.o:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.o
+.PHONY : home/qianyy/work/woaikv/src/corekv/global_var.cpp.o
+
+home/qianyy/work/woaikv/src/corekv/global_var.i: home/qianyy/work/woaikv/src/corekv/global_var.cpp.i
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/global_var.i
+
+# target to preprocess a source file
+home/qianyy/work/woaikv/src/corekv/global_var.cpp.i:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.i
+.PHONY : home/qianyy/work/woaikv/src/corekv/global_var.cpp.i
+
+home/qianyy/work/woaikv/src/corekv/global_var.s: home/qianyy/work/woaikv/src/corekv/global_var.cpp.s
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/global_var.s
+
+# target to generate assembly for a file
+home/qianyy/work/woaikv/src/corekv/global_var.cpp.s:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/global_var.cpp.s
+.PHONY : home/qianyy/work/woaikv/src/corekv/global_var.cpp.s
+
 home/qianyy/work/woaikv/src/corekv/index.o: home/qianyy/work/woaikv/src/corekv/index.cpp.o
 
 .PHONY : home/qianyy/work/woaikv/src/corekv/index.o
@@ -341,6 +368,9 @@ help:
 	@echo "... home/qianyy/work/woaikv/src/corekv/cache.o"
 	@echo "... home/qianyy/work/woaikv/src/corekv/cache.i"
 	@echo "... home/qianyy/work/woaikv/src/corekv/cache.s"
+	@echo "... home/qianyy/work/woaikv/src/corekv/global_var.o"
+	@echo "... home/qianyy/work/woaikv/src/corekv/global_var.i"
+	@echo "... home/qianyy/work/woaikv/src/corekv/global_var.s"
 	@echo "... home/qianyy/work/woaikv/src/corekv/index.o"
 	@echo "... home/qianyy/work/woaikv/src/corekv/index.i"
 	@echo "... home/qianyy/work/woaikv/src/corekv/index.s"
