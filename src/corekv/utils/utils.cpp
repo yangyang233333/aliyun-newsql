@@ -2,7 +2,7 @@
 // Created by qianyy on 10/3/22.
 //
 
-#include "checksum.h"
+#include "utils.h"
 
 namespace corekv {
     //计算data的checksum
@@ -17,4 +17,7 @@ namespace corekv {
 
         return res;
     }
+
+    //计算128位string的hash
+    hash<string> hash_fn;
 }

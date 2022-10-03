@@ -9,6 +9,6 @@ namespace corekv{
 
     Context context{};
 
-
+    Index index;
 
 }

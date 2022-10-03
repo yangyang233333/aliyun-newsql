@@ -190,6 +190,33 @@ home/qianyy/work/woaikv/src/corekv/cache.cpp.s:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/cache.cpp.s
 .PHONY : home/qianyy/work/woaikv/src/corekv/cache.cpp.s
 
+home/qianyy/work/woaikv/src/corekv/context.o: home/qianyy/work/woaikv/src/corekv/context.cpp.o
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/context.o
+
+# target to build an object file
+home/qianyy/work/woaikv/src/corekv/context.cpp.o:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.o
+.PHONY : home/qianyy/work/woaikv/src/corekv/context.cpp.o
+
+home/qianyy/work/woaikv/src/corekv/context.i: home/qianyy/work/woaikv/src/corekv/context.cpp.i
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/context.i
+
+# target to preprocess a source file
+home/qianyy/work/woaikv/src/corekv/context.cpp.i:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.i
+.PHONY : home/qianyy/work/woaikv/src/corekv/context.cpp.i
+
+home/qianyy/work/woaikv/src/corekv/context.s: home/qianyy/work/woaikv/src/corekv/context.cpp.s
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/context.s
+
+# target to generate assembly for a file
+home/qianyy/work/woaikv/src/corekv/context.cpp.s:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.s
+.PHONY : home/qianyy/work/woaikv/src/corekv/context.cpp.s
+
 home/qianyy/work/woaikv/src/corekv/global_var.o: home/qianyy/work/woaikv/src/corekv/global_var.cpp.o
 
 .PHONY : home/qianyy/work/woaikv/src/corekv/global_var.o
@@ -298,6 +325,33 @@ home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s
 .PHONY : home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.s
 
+home/qianyy/work/woaikv/src/corekv/utils/checksum.o: home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.o
+
+# target to build an object file
+home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.o
+
+home/qianyy/work/woaikv/src/corekv/utils/checksum.i: home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.i
+
+# target to preprocess a source file
+home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.i
+
+home/qianyy/work/woaikv/src/corekv/utils/checksum.s: home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
+
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.s
+
+# target to generate assembly for a file
+home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
+.PHONY : home/qianyy/work/woaikv/src/corekv/utils/checksum.cpp.s
+
 home/qianyy/work/woaikv/src/interface.o: home/qianyy/work/woaikv/src/interface.cpp.o
 
 .PHONY : home/qianyy/work/woaikv/src/interface.o
@@ -368,6 +422,9 @@ help:
 	@echo "... home/qianyy/work/woaikv/src/corekv/cache.o"
 	@echo "... home/qianyy/work/woaikv/src/corekv/cache.i"
 	@echo "... home/qianyy/work/woaikv/src/corekv/cache.s"
+	@echo "... home/qianyy/work/woaikv/src/corekv/context.o"
+	@echo "... home/qianyy/work/woaikv/src/corekv/context.i"
+	@echo "... home/qianyy/work/woaikv/src/corekv/context.s"
 	@echo "... home/qianyy/work/woaikv/src/corekv/global_var.o"
 	@echo "... home/qianyy/work/woaikv/src/corekv/global_var.i"
 	@echo "... home/qianyy/work/woaikv/src/corekv/global_var.s"
@@ -380,6 +437,9 @@ help:
 	@echo "... home/qianyy/work/woaikv/src/corekv/meta/filemeta.o"
 	@echo "... home/qianyy/work/woaikv/src/corekv/meta/filemeta.i"
 	@echo "... home/qianyy/work/woaikv/src/corekv/meta/filemeta.s"
+	@echo "... home/qianyy/work/woaikv/src/corekv/utils/checksum.o"
+	@echo "... home/qianyy/work/woaikv/src/corekv/utils/checksum.i"
+	@echo "... home/qianyy/work/woaikv/src/corekv/utils/checksum.s"
 	@echo "... home/qianyy/work/woaikv/src/interface.o"
 	@echo "... home/qianyy/work/woaikv/src/interface.i"
 	@echo "... home/qianyy/work/woaikv/src/interface.s"

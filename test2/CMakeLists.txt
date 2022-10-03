@@ -13,9 +13,15 @@ include_directories(../src)
 file(GLOB_RECURSE SRC ../src/*.cpp) # 找出源文件
 add_library(${PROJECT_NAME} SHARED ${SRC}) # 编译成动态库
 
+# 链接libpmem和pthread
 find_library(LIB_PMEM pmem)
-target_link_libraries(${PROJECT_NAME} ${LIB_PMEM}) # 链接
+target_link_libraries(${PROJECT_NAME} ${LIB_PMEM})
+find_library(PTHREAD pthread)
+target_link_libraries(${PROJECT_NAME} ${PTHREAD})
+
 
 # 生成测试程序
 add_executable(test_main test_main.cpp)
 target_link_libraries(test_main ${PROJECT_NAME})
+find_library(PTHREAD pthread)
+target_link_libraries(test_main ${PTHREAD})

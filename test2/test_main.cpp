@@ -41,11 +41,16 @@ void test_atomic() {
     for (auto &t: thread_pool) {
         t.join();
     }
-    cout<<"ai="<<ai<<endl;
+    cout << "ai=" << ai << endl;
 }
 
 int main() {
-    test_atomic();
+//    test_atomic();
+
+    atomic<int64_t> aa{0};
+    auto a = aa++;
+    cout << "a=" << a << " aa=" << aa << endl;
+
 //    cout << "Hello World!" << endl;
 //    const char *aep_dir = "/mnt/aep/";
 //    cout << aep_dir << endl;

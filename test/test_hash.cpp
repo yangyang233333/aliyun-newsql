@@ -17,11 +17,13 @@ struct User {
 
 int main() {
     //hash的用法
-    std::hash <string> hash_fn;
+    std::hash<string> hash_fn;
     size_t n = hash_fn("1");
     cout << n << endl;
-    cout << sizeof(n)<< endl;
-    cout<<UINT32_MAX<<endl;
+    cout << hash_fn("1") << endl;
+    auto a = hash<string>();
+    cout << hash<string>()("1") << endl;
+    cout << UINT32_MAX << endl;
 
 }
 

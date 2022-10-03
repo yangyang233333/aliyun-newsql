@@ -80,7 +80,9 @@ test_main_EXTERNAL_OBJECTS =
 test_main: CMakeFiles/test_main.dir/test_main.cpp.o
 test_main: CMakeFiles/test_main.dir/build.make
 test_main: libinterface.so
+test_main: /usr/lib/x86_64-linux-gnu/libpthread.so
 test_main: /usr/lib/x86_64-linux-gnu/libpmem.so
+test_main: /usr/lib/x86_64-linux-gnu/libpthread.so
 test_main: CMakeFiles/test_main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qianyy/work/woaikv/test2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_main.dir/link.txt --verbose=$(VERBOSE)

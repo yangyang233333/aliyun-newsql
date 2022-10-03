@@ -1,7 +1,7 @@
 //
 // Created by qianyy on 10/3/22.
 //
-#include "utils/checksum.h"
+#include "utils/utils.h"
 #include "common.h"
 #include "api.h"
 #include "global_var.h"
@@ -20,6 +20,7 @@
 using std::string;
 using std::cout;
 using std::endl;
+using std::hash;
 
 namespace corekv {
     /*
@@ -74,10 +75,16 @@ namespace corekv {
     void engine_write(void *ctx, const void *data, size_t len) {
         //写数据的步骤
         // 1. 先写磁盘
-
+        User *user = (User *) data;
+        int32_t offset = context.get_offset();
+        int64_t checksum = check_sum(user->id);
+        pmem_memcpy_persist(context.fileaddr + offset * 280, user, 272);
+        pmem_memcpy_persist(context.fileaddr + offset * 280 + 272, &checksum, 8);
 
         // 2. 后更新索引
-
+        index.id_map[user->id] = offset;
+        index.uid_map[] = offset;
+        index.salary_map.insert(std::make_pair(user->salary ,offset));
 
     }
 
