@@ -7,7 +7,13 @@
 
 namespace corekv{
 
+    class Cache{
+    public:
+        explicit Cache();
 
+    public:
+
+    };
 
 
 

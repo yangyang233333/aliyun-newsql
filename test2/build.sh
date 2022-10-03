@@ -3,3 +3,6 @@ rm -rf build
 cmake -S . -B build
 #cmake --build build/
 cmake --build build --target all -- -j4 # 4线程编译
+
+echo "开始运行... ..."
+./build/test_main
