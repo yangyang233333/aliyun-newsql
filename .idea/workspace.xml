@@ -17,77 +17,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/interface.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commit.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/enter_hash.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/entry_hash.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/socket_test/cli/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/cli/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/socket_test/svr/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/svr/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_hmap/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hmap/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hmap/CMakeFiles/3.22.1/CompilerIdCXX/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CompilerIdC/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corekv/index.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/corekv/index.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/woaikv/src/common.cpp.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/woaikv/src/config/config.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/woaikv/src/util/enter_hash.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/test_main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/main.dir/test_main.cpp.o.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2/build/libinterface.so" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/libinterface.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/test_main" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/test_main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test2/test_main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +59,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
@@ -132,13 +75,6 @@
       <recent name="\\wsl$\Ubuntu-22.04\home\qianyy\woaikv\test2" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -150,6 +86,7 @@
       <workItem from="1664651577654" duration="3281000" />
       <workItem from="1664660278246" duration="2658000" />
       <workItem from="1664671847649" duration="8334000" />
+      <workItem from="1664834537166" duration="2000" />
     </task>
     <servers />
   </component>

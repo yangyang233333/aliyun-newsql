@@ -2,10 +2,9 @@
 // Created by qianyangyang on 2022/10/2.
 //
 #include "global_var.h"
-#include "context.h"
 #include "index.h"
 #include "utils/utils.h"
-#include <string.h>
+#include <cstring>
 #include "common.h"
 
 namespace corekv {

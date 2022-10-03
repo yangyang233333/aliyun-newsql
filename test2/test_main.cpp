@@ -11,42 +11,20 @@
 using namespace std;
 
 // 测试hmap的内存占用
-//void test_hmap() {
-//    unordered_map<int64_t, uint32_t> hmap;
-//    system("free -m");
-//
-//    for(size_t ){
-//
-//    }
-//
-//
-//    system("free -m");
-//
-//}
+void test_hmap() {
+    unordered_map<int64_t, uint32_t> hmap;
+    int a = system("free -m");
 
-atomic<int32_t> ai;
+    for (size_t i = 0; i < 2*10000 * 10000; ++i) {
+        hmap.insert(make_pair(i,i+2));
+    }
 
-void add() {
-    for (int i = 0; i < 10 * 10000; ++i) {
-        ++ai;
-    }
-}
+    a = system("free -m");
 
-void test_atomic() {
-    ai = 0;
-    vector<thread> thread_pool;
-    for (int i = 0; i < 50; ++i) {
-        thread_pool.emplace_back(add);
-    }
-    for (auto &t: thread_pool) {
-        t.join();
-    }
-    cout << "ai=" << ai << endl;
 }
 
 // 测试以下corekv
 void test_corekv() {
-
 
 
 };
@@ -64,12 +42,7 @@ int main() {
         auto b = iter->second;
     }
 
+    test_hmap();
 
-//    cout << "Hello World!" << endl;
-//    const char *aep_dir = "/mnt/aep/";
-//    cout << aep_dir << endl;
-//
-//    int64_t file_size = 55L * 1024 * 1024 * 1024;//55GB
-//    cout << file_size << endl;
 }
 

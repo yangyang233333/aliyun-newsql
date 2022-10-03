@@ -1,4 +1,0 @@
-/home/qianyy/.cache/JetBrains/RemoteDev/dist/aba04351ed0da_CLion-2022.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/qianyy/.cache/JetBrains/RemoteDev/dist/aba04351ed0da_CLion-2022.2.3/bin/ninja/linux/ninja -G Ninja -S /home/qianyy/work/woaikv/test2 -B /home/qianyy/work/woaikv/test2/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /home/qianyy/work/woaikv/test2/cmake-build-debug

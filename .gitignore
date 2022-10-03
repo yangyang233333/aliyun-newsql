@@ -1,2 +1,7 @@
+
+# clion IDE的cmake缓存文件，无需上传
 cmake-build-debug
 cmake-build-debug-event-trace
+
+test2/cmake-build-debug
+test2/cmake-build-debug-event-trace

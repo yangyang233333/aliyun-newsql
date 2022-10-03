@@ -1,4 +1,0 @@
-/home/qianyy/work/woaikv/test2/cmake-build-debug/CMakeFiles/interface.dir
-/home/qianyy/work/woaikv/test2/cmake-build-debug/CMakeFiles/test_main.dir
-/home/qianyy/work/woaikv/test2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/qianyy/work/woaikv/test2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
