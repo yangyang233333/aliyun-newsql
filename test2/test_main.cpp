@@ -25,7 +25,7 @@ using namespace std;
 int main() {
     cout << "Hello World!" << endl;
     const char *aep_dir = "/mnt/aep/";
-    cout<<aep_dir<<endl;
+    cout << aep_dir << endl;
 
 }
 
