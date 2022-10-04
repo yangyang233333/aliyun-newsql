@@ -7,7 +7,10 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="interface" targetName="test_main" />
+      <config projectName="interface" targetName="interface" />
+    </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
@@ -17,17 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/corekv/index.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/corekv/index.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/context.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/libinterface.so" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/libinterface.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/test_main" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/test_main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test2/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test2/test_main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +34,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,6 +72,27 @@
       <recent name="\\wsl$\Ubuntu-22.04\home\qianyy\woaikv\test2" />
     </key>
   </component>
+  <component name="RunManager" selected="CMake Application.test_main">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interface" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="interface" TARGET_NAME="interface" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="interface" TARGET_NAME="test_main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="interface" RUN_TARGET_NAME="test_main">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.interface" />
+      <item itemvalue="CMake Application.test_main" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +104,7 @@
       <workItem from="1664651577654" duration="3281000" />
       <workItem from="1664660278246" duration="2658000" />
       <workItem from="1664671847649" duration="8334000" />
-      <workItem from="1664834537166" duration="2000" />
+      <workItem from="1664834537166" duration="767000" />
     </task>
     <servers />
   </component>
