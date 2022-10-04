@@ -19,23 +19,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corekv/api.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/corekv/api.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corekv/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/corekv/common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/corekv/index.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/corekv/index.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/api.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/index.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/libinterface.so" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/libinterface.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/test_main" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/test_main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test2/test_main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

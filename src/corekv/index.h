@@ -34,7 +34,6 @@ namespace corekv {
 
         int32_t uk_get(string &user_id) const;
 
-
         //sk指salary，有重复
         int32_t sk_insert(int64_t salsry, int32_t offset);
 
