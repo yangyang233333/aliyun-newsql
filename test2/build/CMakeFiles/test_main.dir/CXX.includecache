@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+../../src/corekv/api.h
+string
+-
+iostream
+-
+string.h
+-
+
+../../src/corekv/common.h
+stdint.h
+-
+
 /home/qianyy/work/woaikv/test2/test_main.cpp
 vector
 -
@@ -19,4 +31,10 @@ atomic
 -
 thread
 -
+string.h
+-
+corekv/common.h
+/home/qianyy/work/woaikv/test2/corekv/common.h
+corekv/api.h
+/home/qianyy/work/woaikv/test2/corekv/api.h
 

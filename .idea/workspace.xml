@@ -20,10 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/build/test_main" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/test_main" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test2/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test2/test_main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +108,7 @@
       <workItem from="1664651577654" duration="3281000" />
       <workItem from="1664660278246" duration="2658000" />
       <workItem from="1664671847649" duration="8334000" />
-      <workItem from="1664834537166" duration="767000" />
+      <workItem from="1664834537166" duration="1481000" />
     </task>
     <servers />
   </component>

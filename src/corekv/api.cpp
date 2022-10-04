@@ -75,7 +75,7 @@ namespace corekv {
      * +---------+---------------+------------+------------+--------------+
      * */
     void engine_write(void *ctx, const void *data, size_t len) {
-        cout << "调用了一次【engine_write】." << endl;
+//        cout << "调用了一次【engine_write】." << endl;
 
         //写数据的步骤
         // 1. 先写磁盘
@@ -118,7 +118,7 @@ namespace corekv {
                        const void *column_key,
                        size_t column_key_len,
                        void *res) {
-        cout << "调用了一次【engine_read】." << endl;
+//        cout << "调用了一次【engine_read】." << endl;
 
         size_t res_num = 0;
         vector<int32_t> offset_vec;
