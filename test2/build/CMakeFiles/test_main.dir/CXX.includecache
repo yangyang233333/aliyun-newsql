@@ -15,7 +15,7 @@ string.h
 -
 
 ../../src/corekv/common.h
-stdint.h
+cstdint
 -
 
 /home/qianyy/work/woaikv/test2/test_main.cpp
@@ -31,7 +31,11 @@ atomic
 -
 thread
 -
-string.h
+set
+-
+unordered_set
+-
+cstring
 -
 corekv/common.h
 /home/qianyy/work/woaikv/test2/corekv/common.h

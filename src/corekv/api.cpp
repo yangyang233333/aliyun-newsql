@@ -118,6 +118,8 @@ namespace corekv {
                        const void *column_key,
                        size_t column_key_len,
                        void *res) {
+//        string s((char *) column_key, 128);
+//        cout << "column_key=" << s << endl;
 //        cout << "调用了一次【engine_read】." << endl;
 
         size_t res_num = 0;
@@ -199,7 +201,7 @@ namespace corekv {
                 return 0;
             }
         }
-
+//        cout<<"res_num="<<res_num<<endl;
         return res_num;
     }
 }

@@ -77,6 +77,7 @@ namespace corekv {
     }
 
     int32_t Index::sk_get(int64_t salary, vector<int32_t> &offset_vec) {
+        offset_vec.clear();
         auto range = salary_map.equal_range(salary);
         for (auto iter = range.first;
              iter != range.second; ++iter) {
@@ -85,7 +86,7 @@ namespace corekv {
         if (offset_vec.empty()) {
             return -5; //表示没找到
         }
-        return 0;
+        return offset_vec.size();
     }
 
     void Index::build_index() {

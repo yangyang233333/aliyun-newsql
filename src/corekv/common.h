@@ -4,8 +4,8 @@
 
 #ifndef CLION_COMMON_H
 #define CLION_COMMON_H
-#include <stdint.h>
-//#include ""
+#include <cstdint>
+
 namespace corekv {
     //定义Entry结构
     struct User {

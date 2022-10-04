@@ -51,7 +51,7 @@ cache.h
 /home/qianyy/work/woaikv/src/corekv/cache.h
 
 /home/qianyy/work/woaikv/src/corekv/common.h
-stdint.h
+cstdint
 -
 
 /home/qianyy/work/woaikv/src/corekv/context.cpp
