@@ -5,16 +5,15 @@
 #ifndef INTERFACE_CACHE_H
 #define INTERFACE_CACHE_H
 
-namespace corekv{
+namespace corekv {
 
-    class Cache{
+    class Cache {
     public:
-        explicit Cache();
+        Cache() = default;
 
     public:
 
     };
-
 
 
 }

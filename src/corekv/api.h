@@ -7,7 +7,7 @@
 
 #include <string>
 #include <iostream>
-#include <string.h>
+#include <cstring>
 
 namespace corekv {
 
