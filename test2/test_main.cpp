@@ -13,6 +13,7 @@
 //仅用于测试corekv
 #include "corekv/common.h"
 #include "corekv/api.h"
+
 using namespace std;
 
 // 测试以下corekv
@@ -469,7 +470,25 @@ void test_hmap() {
 
 }
 
+struct Request {
+    int32_t select_column;
+    int32_t where_column;
+    std::string column_key;
+};
+
+//回复信息
+struct Reply {
+    Request req;
+    int32_t cnt = 0;//查询到的数量
+    std::string rep;
+};
+
 int main() {
+
+    cout << sizeof(Request) << endl;
+    cout << sizeof(Reply) << endl;
+
+
 //    测试corekv
 //    注意：这两个测试不可以同时运行，一次只能运行一个
 //    因为写入的文件相同，1写入的数据会对2产生干扰
@@ -477,7 +496,9 @@ int main() {
 //    test_corekv2();
 
 //    测试unordered_map内存占用
-    test_hmap();
+//    test_hmap();
+
+
 
 
 }
