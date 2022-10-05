@@ -1,3 +1,4 @@
+#include <iostream>
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
@@ -8,57 +9,43 @@
 #include <signal.h>
 #include <errno.h>
 #include <stdlib.h>
+#include <string>
 
-#define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 5001
-#define LISTEN_BACKLOG 50
-
-#define handle_error(msg) do { perror(msg); exit(EXIT_FAILURE); } while (0)
-
-
-void ClientProcess(void) {
-    int clientSockfd = -1;
-
-    struct sockaddr_in socketServerAddr;
-    char sendBuf[1024] = {0};
-    int sendLen = 0;
-
-    /* 1. 创建socket	 */
-    clientSockfd = socket(AF_INET, SOCK_STREAM, 0);
-    if (-1 == clientSockfd) {
-        handle_error("socket");
-    }
-
-    socketServerAddr.sin_family = AF_INET;
-    socketServerAddr.sin_port = htons(SERVER_PORT); /* host to net, short */
-
-    /* 2. 转换server ip为网络字节序	 */
-    if (0 == inet_aton(SERVER_IP, &socketServerAddr.sin_addr)) {
-        printf("Server ip error\n");
-        return;
-    }
-
-    /* 3. 连接server	 */
-    if (-1 == connect(clientSockfd, (const struct sockaddr *) &socketServerAddr, sizeof(struct sockaddr))) {
-        handle_error("connect");
-    } else {
-        printf("Connect success.\nPlease input message:\n");
-    }
-
-    /* 4. 循环输入内容,并发送给server */
-    while (1) {
-        if (fgets(sendBuf, 1023, stdin)) {
-            sendLen = send(clientSockfd, sendBuf, strlen(sendBuf), 0);
-
-            if (sendLen <= 0) {
-                close(clientSockfd);
-                return;
-            }
-        }
-    }
-}
+using namespace std;
 
 int main(int argc, char *argv[]) {
-    ClientProcess();
+    // 1.创建socket
+    int fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (fd == -1) {
+        perror("socket error");
+    }
+
+    // 2.连接服务器
+    sockaddr_in svr_addr;
+    svr_addr.sin_family = AF_INET;
+    svr_addr.sin_port = htons(9527);
+    inet_pton(AF_INET, "127.0.0.1", &svr_addr.sin_addr.s_addr);
+    int ret = connect(fd, (sockaddr *) &svr_addr, sizeof(svr_addr));
+    if (ret != 0) {
+        perror("connect err");
+    }
+
+    // 3.写数据
+    int cnt = 5;
+    char buf[BUFSIZ];
+    while (--cnt > 0) {
+        write(fd, ("hello_" + to_string(cnt)).c_str(), ("hello_" + to_string(cnt)).size());
+        int char_cnt = read(fd, buf, sizeof(buf));
+        for (int i = 0; i < char_cnt; ++i) {
+            cout << buf[i];
+        }
+        cout << endl;
+    }
+
+    close(fd);
+
+
     return 0;
+
+
 }

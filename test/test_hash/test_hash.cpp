@@ -1,12 +1,10 @@
 //
 // Created by qianyangyang on 9/25/22.
 //
-#include <stdint.h>
-
+#include <cstdint>
 #include <iostream>
 #include <functional>
 #include <string>
-#include <stdint.h>
 
 using namespace std;
 
@@ -24,6 +22,7 @@ int main() {
     auto a = hash<string>();
     cout << hash<string>()("1") << endl;
     cout << UINT32_MAX << endl;
+
 
 }
 

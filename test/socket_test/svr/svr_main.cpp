@@ -8,75 +8,50 @@
 #include <signal.h>
 #include <errno.h>
 #include <stdlib.h>
-
-#define SERVER_IP "127.0.0.1"
-#define SERVER_PORT 5001
-#define LISTEN_BACKLOG 50
-
-#define handle_error(msg) do { perror(msg); exit(EXIT_FAILURE); } while (0)
-
-void ServerProcess(void) {
-    int serverSockfd = -1;
-    int acceptSockfd = -1;
-    socklen_t addrLen = 0;
-    char recvBuf[1024] = {0};
-    int recvLen = 0;
-
-    struct sockaddr_in tSocketServerAddr;
-    struct sockaddr_in tSocketClientAddr;
-
-    tSocketServerAddr.sin_family = AF_INET;
-    tSocketServerAddr.sin_port = htons(SERVER_PORT);
-    tSocketServerAddr.sin_addr.s_addr = htons(INADDR_ANY);
-
-    /* 1. 创建socket */
-    serverSockfd = socket(AF_INET, SOCK_STREAM, 0);
-    if (-1 == serverSockfd) {
-        handle_error("socket");
-    }
-
-    /* 2. 绑定socket	 */
-    if (-1 == bind(serverSockfd, (struct sockaddr *) &tSocketServerAddr, sizeof(struct sockaddr_in))) {
-        handle_error("bind");
-    }
-
-    /* 3. 监听   */
-    if (-1 == listen(serverSockfd, LISTEN_BACKLOG)) {
-        handle_error("listen");
-    }
-
-    while (1) {
-        addrLen = sizeof(struct sockaddr);
-        acceptSockfd = accept(serverSockfd, (struct sockaddr *) &tSocketClientAddr, &addrLen);
-
-        if (-1 != acceptSockfd) {
-            printf("Connected Client IP : %s  \n", inet_ntoa(tSocketClientAddr.sin_addr));
-            printf("Waiting client send message...\n");
-
-            /* 创建子进程,用于多个client连接	*/
-            if (0 == fork()) {
-                while (1) {
-                    /* 阻塞接收客户端数据, 收到后返回,并打印 */
-                    recvLen = recv(acceptSockfd, recvBuf, 1023, 0);
-
-                    if (recvLen <= 0) {
-                        close(acceptSockfd);
-                        return;
-                    } else {
-                        recvBuf[recvLen] = '\0';
-                        printf("Client: %s\n", recvBuf);
-                    }
-                }
-            }
-        } else {
-            handle_error("accept");
-        }
-    }
-    close(serverSockfd);
-    serverSockfd = -1;
-}
+#include <cctype>
 
 int main(int argc, char *argv[]) {
-    ServerProcess();
+    // 1.创建socket
+    int fd = socket(AF_INET, SOCK_STREAM, 0);
+    if (fd == -1) {
+        perror("socket建立失败");
+    }
+
+    sockaddr_in svr_addr;
+    svr_addr.sin_family = AF_INET;
+    svr_addr.sin_port = htons(9527);
+    svr_addr.sin_addr.s_addr = htonl(INADDR_ANY);
+    // 2.
+    bind(fd, (sockaddr *) &svr_addr, sizeof(svr_addr));
+
+    // 3.设置最大连接数
+    listen(fd, 128);
+
+    // 4.
+    sockaddr cli_addr;
+    socklen_t cli_addr_len;
+    cli_addr_len = sizeof(cli_addr);
+    int new_fd = accept(fd, (sockaddr *) &cli_addr, &cli_addr_len);
+    if (new_fd == -1) {
+        perror("accept error");
+    }
+
+    // 5.
+    char buf[BUFSIZ];
+    while (true) {
+        //ret是实际读取到的字节数
+        int ret = read(new_fd, buf, sizeof(buf));
+
+        for (int i = 0; i < ret; ++i) {
+            buf[i] = toupper(buf[i]);
+        }
+        //转为大写后，返回给客户端
+        write(new_fd, buf, ret);
+    }
+
+
+    close(fd);
+    close(new_fd);
+
     return 0;
 }

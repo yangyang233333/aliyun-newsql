@@ -19,7 +19,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="" />
+    <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/cli/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/cli/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/cli/cli_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/cli/cli_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/svr/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/svr/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/svr/svr_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/svr/svr_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_hash/test_hash.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,11 +67,13 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/home/qianyy/woaikv/test2/CMakeLists.txt&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/test_hash" />
       <recent name="\\wsl$\Ubuntu-22.04\home\qianyy\woaikv\test2" />
     </key>
   </component>
@@ -97,6 +108,9 @@
       <workItem from="1664892443344" duration="1197000" />
       <workItem from="1664912957184" duration="598000" />
       <workItem from="1664918330239" duration="599000" />
+      <workItem from="1664966127559" duration="599000" />
+      <workItem from="1664966796199" duration="1831000" />
+      <workItem from="1664993814315" duration="1000" />
     </task>
     <servers />
   </component>
