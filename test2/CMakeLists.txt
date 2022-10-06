@@ -19,7 +19,6 @@ target_link_libraries(${PROJECT_NAME} ${LIB_PMEM})
 find_library(PTHREAD pthread)
 target_link_libraries(${PROJECT_NAME} ${PTHREAD})
 
-
 # 生成测试程序
 add_executable(test_main test_main.cpp)
 target_link_libraries(test_main ${PROJECT_NAME})

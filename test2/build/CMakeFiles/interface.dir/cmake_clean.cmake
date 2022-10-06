@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/meta/filemeta.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/corekv/utils/utils.cpp.o"
   "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o"
+  "CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/net/netlayer.cpp.o"
   "libinterface.pdb"
   "libinterface.so"
 )

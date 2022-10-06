@@ -11,7 +11,7 @@ string
 -
 iostream
 -
-string.h
+cstring
 -
 
 ../../src/corekv/common.h

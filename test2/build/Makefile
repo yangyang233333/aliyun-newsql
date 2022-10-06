@@ -379,6 +379,33 @@ home/qianyy/work/woaikv/src/interface.cpp.s:
 	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.s
 .PHONY : home/qianyy/work/woaikv/src/interface.cpp.s
 
+home/qianyy/work/woaikv/src/net/netlayer.o: home/qianyy/work/woaikv/src/net/netlayer.cpp.o
+
+.PHONY : home/qianyy/work/woaikv/src/net/netlayer.o
+
+# target to build an object file
+home/qianyy/work/woaikv/src/net/netlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/net/netlayer.cpp.o
+.PHONY : home/qianyy/work/woaikv/src/net/netlayer.cpp.o
+
+home/qianyy/work/woaikv/src/net/netlayer.i: home/qianyy/work/woaikv/src/net/netlayer.cpp.i
+
+.PHONY : home/qianyy/work/woaikv/src/net/netlayer.i
+
+# target to preprocess a source file
+home/qianyy/work/woaikv/src/net/netlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/net/netlayer.cpp.i
+.PHONY : home/qianyy/work/woaikv/src/net/netlayer.cpp.i
+
+home/qianyy/work/woaikv/src/net/netlayer.s: home/qianyy/work/woaikv/src/net/netlayer.cpp.s
+
+.PHONY : home/qianyy/work/woaikv/src/net/netlayer.s
+
+# target to generate assembly for a file
+home/qianyy/work/woaikv/src/net/netlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/interface.dir/build.make CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/net/netlayer.cpp.s
+.PHONY : home/qianyy/work/woaikv/src/net/netlayer.cpp.s
+
 test_main.o: test_main.cpp.o
 
 .PHONY : test_main.o
@@ -443,6 +470,9 @@ help:
 	@echo "... home/qianyy/work/woaikv/src/interface.o"
 	@echo "... home/qianyy/work/woaikv/src/interface.i"
 	@echo "... home/qianyy/work/woaikv/src/interface.s"
+	@echo "... home/qianyy/work/woaikv/src/net/netlayer.o"
+	@echo "... home/qianyy/work/woaikv/src/net/netlayer.i"
+	@echo "... home/qianyy/work/woaikv/src/net/netlayer.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"
