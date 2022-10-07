@@ -21,26 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8fc7f01d-54fd-4d12-b7c2-f207ac973542" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/common.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/home/qianyy/work/woaikv/src/interface.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/interface.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/CMakeFiles/test_main.dir/test_main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/libinterface.so" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/libinterface.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/build/test_main" beforeDir="false" afterPath="$PROJECT_DIR$/test2/build/test_main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test2/test_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/cli/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/cli/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/socket_test/cli/cli_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test/socket_test/cli/cli_main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -90,7 +73,7 @@
       <recent name="\\wsl$\Ubuntu-22.04\home\qianyy\woaikv\test2" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test_main">
+  <component name="RunManager" selected="CMake 应用程序.interface">
     <configuration name="interface" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="interface" TARGET_NAME="interface" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,8 +85,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.interface" />
-      <item itemvalue="CMake Application.test_main" />
+      <item itemvalue="CMake 应用程序.interface" />
+      <item itemvalue="CMake 应用程序.test_main" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -123,7 +106,10 @@
       <workItem from="1664918330239" duration="599000" />
       <workItem from="1664966127559" duration="599000" />
       <workItem from="1664966796199" duration="1831000" />
-      <workItem from="1664993814315" duration="2093000" />
+      <workItem from="1664993814315" duration="2240000" />
+      <workItem from="1665094297159" duration="250000" />
+      <workItem from="1665094567227" duration="1200000" />
+      <workItem from="1665160800964" duration="1000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,10 @@ int main(int argc, char *argv[]) {
     sockaddr_in svr_addr;
     svr_addr.sin_family = AF_INET;
     svr_addr.sin_port = htons(9527);
+
+    //将IP地址从字符串格式转换成网络地址格式，支持Ipv4和Ipv6
     inet_pton(AF_INET, "127.0.0.1", &svr_addr.sin_addr.s_addr);
+    cout <<"aaaaaaaaaaaaaaaaaaaaa:"<< svr_addr.sin_addr.s_addr << endl;
     int ret = connect(fd, (sockaddr *) &svr_addr, sizeof(svr_addr));
     if (ret != 0) {
         perror("connect err");
